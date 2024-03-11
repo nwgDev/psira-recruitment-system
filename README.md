@@ -6,7 +6,7 @@ Welcome to PSiRA Recruitment System Project! This README will guide you through 
 
 1. **Clone the repository:**
 
-git clone <repository-url>
+git clone https://github.com/nwgDev/psira-recruitment-system
 
 a. Navigate to the project directory:
 - cd <project-directory>
