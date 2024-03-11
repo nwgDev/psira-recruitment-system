@@ -15,6 +15,6 @@ class ApplicantTableSeeder extends Seeder
      */
     public function run()
     {
-        Applicant::factory()->count(20)->create();
+        Applicant::factory()->count(5)->create();
     }
 }

@@ -8,7 +8,7 @@ class WelcomeController extends Controller
 {
     public function index()
     {
-        $posts = $posts = Post::paginate(6);
+        $posts = $posts = Post::paginate(10);
         return view('welcome')->with('posts', $posts);
     }
 }
