@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+.right-div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 50px;
+}
+.welcome-text {
+    text-align: left;
+}
+.welcome-text1 {
+    text-align: center;
+    color: grey;
+}
+.registration a {
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
+table {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+table tbody{
+    font-size: small;
+}
+table th {
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: small;
+}
+table td {
+    border: none;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.apply-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.table-details {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.label-color {
+    color: #0000ff;
+}
